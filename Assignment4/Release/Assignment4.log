@@ -1,0 +1,29 @@
+﻿Build started 2016-03-22 7:52:35 PM.
+     1>Project "C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Assignment4\Assignment4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt boilerplate.cpp
+         boilerplate.cpp
+     1>boilerplate.cpp(70): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>boilerplate.cpp(162): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>boilerplate.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>boilerplate.cpp(324): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>boilerplate.cpp(492): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>boilerplate.cpp(493): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>boilerplate.cpp(501): warning C4018: '<' : signed/unsigned mismatch
+     1>boilerplate.cpp(512): warning C4018: '<' : signed/unsigned mismatch
+     1>boilerplate.cpp(522): warning C4018: '<' : signed/unsigned mismatch
+     1>boilerplate.cpp(534): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 boilerplate.cpp(522) : definition of 'i' ignored
+                 boilerplate.cpp(482) : definition of 'i' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Release\Assignment4.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glfw3.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Release\Assignment4.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Release\Assignment4.lib" /MACHINE:X86 /SAFESEH Release\boilerplate.obj
+         Release\glad.obj
+         Release\ImageBuffer.obj
+         Generating code
+         Finished generating code
+         Assignment4.vcxproj -> C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Release\Assignment4.exe
+     1>Done Building Project "C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Assignment4\Assignment4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.16

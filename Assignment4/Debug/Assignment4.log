@@ -1,0 +1,29 @@
+﻿Build started 2016-03-22 7:49:15 PM.
+     1>Project "C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Assignment4\Assignment4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt boilerplate.cpp
+         boilerplate.cpp
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(70): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(162): warning C4305: 'initializing' : truncation from 'double' to 'const GLfloat'
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(264): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(324): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(442): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(467): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(483): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(504): error C2374: 'x' : redefinition; multiple initialization
+                 c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(498) : see declaration of 'x'
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(504): error C2065: 't' : undeclared identifier
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(505): error C2088: '-' : illegal for struct
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(578): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(579): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(587): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(598): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(608): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(620): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(608) : definition of 'i' ignored
+                 c:\users\brendan\desktop\university\third year\winter\cpsc453\assignment4\assignment4\boilerplate.cpp(568) : definition of 'i' used
+     1>Done Building Project "C:\Users\Brendan\Desktop\University\Third Year\Winter\CPSC453\Assignment4\Assignment4\Assignment4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.75
